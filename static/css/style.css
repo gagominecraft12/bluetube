@@ -61,3 +61,17 @@ footer {
     font-family: Verdana;
     border: 0px;
 }
+video.ytstyled, video.ytstyled:-moz-loading {
+    border: 0px;
+    background: black;
+    animation: loadingbr;
+    
+}
+@keyframes loadingbr {
+    0% {background-color: gainsboro;}
+    10% {background-color: red;}
+    20% {background-color: green;}
+    30% {background-color: blue;}
+    50% {background-color: cornflowerblue;}
+    100% {background-color: white;}
+}
