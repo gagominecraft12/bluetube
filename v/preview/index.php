@@ -17,16 +17,8 @@
 <body>
 <main>
     <?php
-    if (video.played[0]()) {
-        # code...
-        json_encode({
-            play(video.address[0].[1])
-        })
-        _POST({
-            parent: "./"
-            child: "?v="
-        })
-    }
+
+    const yt = "//youtube.com";
     /* WIP CONTENT */ /*
     if (video.mark.forkids[0]()) {
         vfk()
